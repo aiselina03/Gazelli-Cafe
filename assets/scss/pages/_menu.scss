@@ -1,0 +1,579 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+#menu {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.42),
+      rgba(0, 0, 0, 0.63)
+    ),
+    url("https://optim.tildacdn.one/tild6438-3034-4637-b331-646262363137/-/format/webp/coolmenu.jpg");
+  background-position: center;
+  width: 100%;
+  height: 91vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+  }
+  .logos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    .logo {
+      margin-right: 40px;
+      img {
+        width: 100px;
+      }
+
+      p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Playfair Display", serif;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+#esasYemek {
+  margin-top: 15px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.42),
+      rgba(0, 0, 0, 0.63)
+    ),
+    url("https://optim.tildacdn.one/tild6438-3034-4637-b331-646262363137/-/format/webp/coolmenu.jpg");
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+  }
+  .logos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    .logo {
+      margin-right: 40px;
+      img {
+        width: 100px;
+      }
+
+      p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Playfair Display", serif;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+#seherYemek {
+  .bckSeher {
+    margin-top: 40px;
+    background-image: url("https://optim.tildacdn.one/tild6535-3031-4035-b663-346561323932/-/format/webp/56565.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text {
+      width: 450px;
+      height: 120px;
+      opacity: 0.75;
+      background-color: #ffffff;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+      h1 {
+        color: #000000;
+        font-size: 50px;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        background-position: center center;
+      }
+      p {
+        color: #000000;
+        font-size: 26px;
+        font-family: "Playfair Display", serif;
+        line-height: 1.15;
+        font-weight: 400;
+      }
+    }
+  }
+  .cards {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    img {
+      width: 340px;
+      height: 510px;
+    }
+    h4 {
+      color: #3c3c3b;
+      font-size: 17px;
+      line-height: 1.2;
+      font-weight: 700;
+      margin: 9px 0;
+    }
+    p {
+      color: #575756;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 400;
+    }
+  }
+}
+
+#sorbaYemek {
+  .bckSorba {
+    margin-top: 40px;
+    background-image: url("https://optim.tildacdn.one/tild6134-3464-4464-b335-373838356539/-/format/webp/77777777777777777777.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text {
+      width: 450px;
+      height: 120px;
+      opacity: 0.75;
+      background-color: #ffffff;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+      h1 {
+        color: #000000;
+        font-size: 50px;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        background-position: center center;
+      }
+      p {
+        color: #000000;
+        font-size: 26px;
+        font-family: "Playfair Display", serif;
+        line-height: 1.15;
+        font-weight: 400;
+      }
+    }
+  }
+  .cards {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    img {
+      width: 340px;
+      height: 510px;
+    }
+    h4 {
+      color: #3c3c3b;
+      font-size: 17px;
+      line-height: 1.2;
+      font-weight: 700;
+      margin: 9px 0;
+    }
+    p {
+      color: #575756;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 400;
+    }
+  }
+}
+
+#dinner {
+  .bckDinner {
+    margin-top: 40px;
+    background-image: url("https://optim.tildacdn.one/tild3339-3733-4234-b562-333062363766/-/format/webp/t54.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text {
+      width: 450px;
+      height: 120px;
+      opacity: 0.75;
+      background-color: #ffffff;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+      h1 {
+        color: #000000;
+        font-size: 50px;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        background-position: center center;
+      }
+      p {
+        color: #000000;
+        font-size: 26px;
+        font-family: "Playfair Display", serif;
+        line-height: 1.15;
+        font-weight: 400;
+      }
+    }
+  }
+  .cards {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    img {
+      width: 340px;
+      height: 510px;
+    }
+    h4 {
+      color: #3c3c3b;
+      font-size: 17px;
+      line-height: 1.2;
+      font-weight: 700;
+      margin: 9px 0;
+    }
+    p {
+      color: #575756;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 400;
+    }
+  }
+}
+
+#salad {
+  .bckSalad {
+    margin-top: 40px;
+    background-image: url("https://optim.tildacdn.one/tild6238-3634-4264-b132-303536303463/-/format/webp/5345.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text {
+      width: 450px;
+      height: 120px;
+      opacity: 0.75;
+      background-color: #ffffff;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+      h1 {
+        color: #000000;
+        font-size: 50px;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        background-position: center center;
+      }
+      p {
+        color: #000000;
+        font-size: 26px;
+        font-family: "Playfair Display", serif;
+        line-height: 1.15;
+        font-weight: 400;
+      }
+    }
+  }
+  .cards {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    img {
+      width: 340px;
+      height: 510px;
+    }
+    h4 {
+      color: #3c3c3b;
+      font-size: 17px;
+      line-height: 1.2;
+      font-weight: 700;
+      margin: 9px 0;
+    }
+    p {
+      color: #575756;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 400;
+    }
+  }
+}
+
+#esasYemekler {
+  .bckEsasYemekler {
+    margin-top: 40px;
+    background-image: url("https://optim.tildacdn.one/tild6336-3165-4566-b530-666563313335/-/format/webp/6y5y6.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text {
+      width: 450px;
+      height: 120px;
+      opacity: 0.75;
+      background-color: #ffffff;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+      h1 {
+        color: #000000;
+        font-size: 50px;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        background-position: center center;
+      }
+      p {
+        color: #000000;
+        font-size: 26px;
+        font-family: "Playfair Display", serif;
+        line-height: 1.15;
+        font-weight: 400;
+      }
+    }
+  }
+  .cards {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    img {
+      width: 340px;
+      height: 510px;
+    }
+    h4 {
+      color: #3c3c3b;
+      font-size: 17px;
+      line-height: 1.2;
+      font-weight: 700;
+      margin: 9px 0;
+    }
+    p {
+      color: #575756;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 400;
+    }
+  }
+}
+
+#dessert {
+    .bckDessert {
+      margin-top: 40px;
+      background-image: url("https://optim.tildacdn.one/tild3138-3462-4037-b937-343439616436/-/format/webp/7i7i7.jpg");
+      width: 100%;
+      height: 50vh;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .text {
+        width: 450px;
+        height: 120px;
+        opacity: 0.75;
+        background-color: #ffffff;
+        background-position: center center;
+        border-color: transparent;
+        border-style: solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        h1 {
+          color: #000000;
+          font-size: 50px;
+          font-family: "Playfair Display", serif;
+          font-weight: 400;
+          background-position: center center;
+        }
+        p {
+          color: #000000;
+          font-size: 26px;
+          font-family: "Playfair Display", serif;
+          line-height: 1.15;
+          font-weight: 400;
+        }
+      }
+    }
+    .cards {
+      width: 80%;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      font-family: "Playfair Display", serif;
+      text-align: center;
+      img {
+        width: 340px;
+        height: 510px;
+      }
+      h4 {
+        color: #3c3c3b;
+        font-size: 17px;
+        line-height: 1.2;
+        font-weight: 700;
+        margin: 9px 0;
+      }
+      p {
+        color: #575756;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+      }
+    }
+  }
+
+  #kokteyl {
+    .bckKokteyl {
+      margin-top: 40px;
+      background-image: url("https://optim.tildacdn.one/tild3262-3139-4435-b137-366136326263/-/format/webp/y54y5y5y5.jpg");
+      width: 100%;
+      height: 50vh;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .text {
+        width: 450px;
+        height: 120px;
+        opacity: 0.75;
+        background-color: #ffffff;
+        background-position: center center;
+        border-color: transparent;
+        border-style: solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        h1 {
+          color: #000000;
+          font-size: 50px;
+          font-family: "Playfair Display", serif;
+          font-weight: 400;
+          background-position: center center;
+        }
+        p {
+          color: #000000;
+          font-size: 26px;
+          font-family: "Playfair Display", serif;
+          line-height: 1.15;
+          font-weight: 400;
+        }
+      }
+    }
+    .cards {
+      width: 80%;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      font-family: "Playfair Display", serif;
+      text-align: center;
+      img {
+        width: 340px;
+        height: 510px;
+      }
+      h4 {
+        color: #3c3c3b;
+        font-size: 17px;
+        line-height: 1.2;
+        font-weight: 700;
+        margin: 9px 0;
+      }
+      p {
+        color: #575756;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+      }
+    }
+  }

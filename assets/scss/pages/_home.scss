@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+#video {
+  .video1 {
+    position: relative;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+  }
+  img {
+    width: 110px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+  }
+  p {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+  }
+}
+#about {
+  color: #000000;
+  width: 80%;
+  margin: 50px auto;
+  font-family: "Playfair Display", serif;
+  line-height: 1.15;
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: rgb(79, 79, 79);
+    span {
+      color: #000000;
+      font-weight: 700;
+    }
+  }
+}
+#slider {
+  margin: 50px auto;
+  width: 100%;
+  height: auto;
+  .photo-items {
+    .slick-prev,
+    .slick-arrow {
+      display: none !important;
+    }
+    .photo1 {
+      margin: 30px;
+      width: 400px;
+      height: 600px;
+      background-size: cover;
+      background-image: url("https://optim.tildacdn.one/tild6434-6363-4933-a636-326364613461/-/format/webp/10.jpg");
+    }
+    .photo2 {
+      margin: 30px;
+      width: 400px;
+      height: 600px;
+      background-size: cover;
+      background-image: url("https://optim.tildacdn.one/tild6263-3536-4266-b035-343963326365/-/format/webp/12.jpg");
+    }
+    .photo3 {
+      margin: 30px;
+      width: 400px;
+      height: 600px;
+      background-size: cover;
+      background-image: url("https://optim.tildacdn.one/tild3661-3865-4866-b063-623364323131/-/format/webp/14.jpg");
+    }
+    .photo4 {
+      margin: 30px;
+      width: 400px;
+      height: 600px;
+      background-size: cover;
+      background-image: url("https://optim.tildacdn.one/tild3935-6265-4563-a339-393830383136/-/format/webp/15.jpg");
+    }
+    .photo5 {
+      margin: 30px;
+      width: 400px;
+      height: 600px;
+      background-size: cover;
+      background-image: url("https://static.tildacdn.com/tild3765-3433-4332-a133-646632366662/13.jpg");
+    }
+    .photo6 {
+      margin: 30px;
+      width: 400px;
+      height: 600px;
+      background-size: cover;
+      background-image: url("https://static.tildacdn.com/tild6163-3439-4337-a462-656530653537/1111.jpg");
+    }
+  }
+}
+#video2 {
+  position: relative;
+  .video2 {
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 68vh;
+  }
+  .h1 {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    line-height: 1.55;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+#komanda {
+  color: #000000;
+  width: 80%;
+  margin: 50px auto;
+  font-family: "Playfair Display", serif;
+  line-height: 1.15;
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: rgb(79, 79, 79);
+    span {
+      color: #000000;
+      font-weight: 700;
+    }
+  }
+}
+#slider2 {
+  margin: 50px auto;
+  width: 100%;
+  height: auto;
+  .photo-items {
+    .slick-prev,
+    .slick-arrow {
+      display: none !important;
+    }
+    .photo1 {
+      margin: 30px;
+      background-repeat: no-repeat;
+      width: 600px;
+      height: 600px;
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://optim.tildacdn.one/tild3664-6436-4630-b965-336636343138/-/format/webp/333.jpg");
+    }
+    .photo2 {
+      width: 100%;
+      height: 600px;
+      margin: 30px;
+      background-repeat: no-repeat;
+      width: 600px;
+      height: 600px;
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://optim.tildacdn.one/tild3362-6138-4162-b033-653266306431/-/format/webp/IMG_8850_resized.jpeg");
+    }
+    .photo3 {
+      width: 100%;
+      height: 600px;
+      margin: 30px;
+      background-repeat: no-repeat;
+      width: 600px;
+      height: 600px;
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://optim.tildacdn.one/tild6335-3638-4532-a631-373237306635/-/format/webp/2342.jpg");
+    }
+    .photo4 {
+      width: 100%;
+      height: 600px;
+      margin: 30px;
+      height: 600px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url("https://optim.tildacdn.one/tild3439-6338-4461-b239-346131386335/-/format/webp/IMG_8887_resized.jpeg");
+    }
+    .photo5 {
+      width: 100%;
+      height: 600px;
+      margin: 30px;
+      height: 600px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url("https://static.tildacdn.com/tild6131-6635-4130-a531-356230316430/IMG_8953_resized.jpeg");
+    }
+    .photo6 {
+      width: 100%;
+      height: 600px;
+      margin: 30px;
+      height: 600px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url("https://static.tildacdn.com/tild3133-3333-4636-a663-643638666336/IMG_8871_resized.jpeg");
+    }
+  }
+}
+#instagram {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .head {
+    h1 {
+      color: #000000;
+      font-size: 35px;
+      font-family: "Playfair Display", serif;
+      text-align: center;
+    }
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+    .card {
+      position: relative;
+      cursor: pointer;
+      &:hover {
+        .hover {
+          opacity: 1;
+        }
+      }
+      img {
+        width: 330px;
+        height: 330px;
+        object-fit: cover;
+      }
+      .hover {
+        transition: all 600ms;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000a6;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        p {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
