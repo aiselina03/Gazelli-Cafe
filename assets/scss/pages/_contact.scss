@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+#contactPage {
+  width: 80%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  font-family: "Playfair Display", serif;
+  .contact {
+    h1 {
+      margin: 30px auto;
+    }
+    .info {
+      margin: 20px 0;
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  .map {
+    width: 100%;
+  }
+}

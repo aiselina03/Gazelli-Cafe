@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -1372,4 +1373,28 @@ footer .footer2 .icons i {
   font-size: 14px;
   line-height: 1.2;
   font-weight: 400;
+}
+
+#contactPage {
+  width: 80%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  font-family: "Playfair Display", serif;
+}
+#contactPage .contact h1 {
+  margin: 30px auto;
+}
+#contactPage .contact .info {
+  margin: 20px 0;
+}
+#contactPage .contact .info h3 {
+  font-size: 18px;
+}
+#contactPage .contact .info p {
+  font-size: 16px;
+}
+#contactPage .map {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
